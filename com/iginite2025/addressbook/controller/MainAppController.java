@@ -1,4 +1,4 @@
-package com.iginite2025.addressbookcontroller;
+package com.iginite2025.addressbook.controller;
 
 import java.sql.Connection;
 import java.util.List;
