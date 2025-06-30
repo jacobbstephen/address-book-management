@@ -16,8 +16,8 @@ public class AddressBookUtil {
 	}
 	public static Connection getConnection() throws SQLException {
 		final String JDBC_URL = "jdbc:h2:tcp://localhost/D:/h2-db/learn";
-		final String JDBC_USERNAME = "jacob";
-		final String JDBC_PASSWORD = "jacob";
+		final String JDBC_USERNAME = "";
+		final String JDBC_PASSWORD = "";
 		return DriverManager.getConnection(JDBC_URL, JDBC_USERNAME, JDBC_PASSWORD);
 	}
 }
